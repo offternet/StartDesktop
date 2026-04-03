@@ -1,5 +1,23 @@
 https://youtu.be/1oY9ofjH2_o?si=xMFzPlkSeqHFyZdK
 
+## **Current Features - Linux Webtop Contol Panel** 
+### Test the Control Panel: http://offternet.atwebpages.com/
+
+### **Test the Webtop Desktop here: http://offternet.atwebpages.com/
+
+### -Search for any button
+
+### -Export / Import Changes made to buttons
+
+### -10 tabs with 10 buttons (100 total buttons)
+
+### -Bulk Edit: Modify button names in bulk, up to 100
+
+### -Inline Edit "Pencil" of button link
+
+### -Drag & Drop moving of buttons on same page
+
+### -Switch from Light to Dark theme
 # Linux Webtop Process
 
 Video on youtube: https://youtu.be/0cKoVyqZNIc?si=SaL95AqwEb2G3bzj
