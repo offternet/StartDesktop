@@ -2,20 +2,17 @@ https://youtu.be/1oY9ofjH2_o?si=xMFzPlkSeqHFyZdK
 
 ## **Current Features - StartDesktop Browswer Control** 
 ### Test our Star tDesktop Browser Control: 
-     [Start Desk Browser Contol](http://me2pc.com/index.php/start-desktop-user-interface)
-
-     [Visit GitHub](https://github.com)
+     http://me2pc.com/index.php/start-desktop-user-interface
 
 ### Test our Start Desktop - Powered by JavaScript: 
-    http://bobbycooper.net 
-
-### **Test the Webtop Desktop here: http://offternet.atwebpages.com/**
+     http://bobbycooper.net 
+### Start Desktop User Interface
 
 ### -Search for any button
 
-### -Export / Import Changes made to buttons
+### -Export / Import Changes made to buttons to xml file - downloaded.
 
-### -10 tabs with 10 buttons (100 total buttons)
+### -10 tabs containing 10 buttons each (100 total buttons)
 
 ### -Bulk Edit: Modify button names in bulk, up to 100
 
@@ -34,19 +31,64 @@ Video on youtube: https://youtu.be/0cKoVyqZNIc?si=SaL95AqwEb2G3bzj
 
 **The complete Linux Webtop process is very easy to implement, customize and to use.**
 
-**The Linux Webtop process envolves 4 separate parts**
+**The StartDesktop process consists of 2 separate parts**
 
-   A. X-Windows x-scheme-handlers registrasion of "linuxapps" <--linuxapps:// (just once) .
+   ~~A. X-Windows x-scheme-handlers registrasion of "linuxapps" <--linuxapps:// (just once)~~ .
 
-   B. html Webpage(s) (with our special malformed hybrid hyperlink urls) 
+   A. A single html / css / Client Side JavaScirpt Webpage 
+      (with our special malformed hybrid prefix-hyperlink urls) 
        <a href="linuxapps://launch?app=vlc">Launch VLC</a>) "vlc" -->
 
-   C. Desktop Launcher "linuxApps.deskop"
-       - Exec=/home/linux/linuxApp.sh %u
-       - MimeType=x-scheme-handler/linuxapps;) %u="vlc" -->
+   ~~C. Desktop Launcher "linuxApps.deskop"~~
+       ~~- Exec=/home/linux/linuxApp.sh %u~~
+       ~~- MimeType=x-scheme-handler/linuxapps;) %u="vlc" -->~~
+       
+   B. 100% bash listener socat webserver shell script.
 
-   D. Shell Script  "linuxApps.sh"
-       - %u="vlc" --> linuxApps.sh --> vlc program is launched. 
+   ~~C. Shell Script  "linuxApps.sh"~~
+       ~~- %u="vlc" --> linuxApps.sh --> vlc program is launched.~~ 
+       
+###**what can be dropped in to a button and then executed with a single click**###.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 COMPLEX COMMAND EXAMPLES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Multiple apt commands with chaining:
+   http://192.168.207.133:9000/launch/sudo_"sudo apt-get update && sudo apt-get upgrade -y"
+
+2. GUI dialog + system commands:
+   http://192.168.207.133:9000/launch/bash_"yad --question --text='Proceed?'; sudo apt-get update; xdg-open 'https://deepseek.com'"
+
+3. Complex scripting with variables:
+   http://192.168.207.133:9000/launch/bash_"for i in {1..5}; do echo \"Count: $i\"; sleep 1; done"
+
+4. Multi-line commands with semicolons:
+   http://192.168.207.133:9000/launch/bash_"cd /tmp; mkdir test; touch test/file.txt; ls -la test/"
+
+5. Conditional execution:
+   http://192.168.207.133:9000/launch/bash_"which firefox && firefox || echo 'Firefox not installed'"
+
+6. Background processes:
+   http://192.168.207.133:9000/launch/bash_"nautilus &; gnome-calculator &"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 SYNTAX RULES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Use double quotes around the entire command: prefix_"your command here"
+• Multiple commands: separate with ; or && or ||
+• Escape inner double quotes with backslash: \"
+• Query parameters (?_cb=xxx) are automatically stripped
+
+🔧 PREFIXES:
+  bash_  - Opens terminal window, runs commands (no sudo)
+  sudo_  - Prompts for password, runs with elevated privileges
+  (none) - Runs silently in background
+
+✨ Features: yad dialogs, command chaining, variables, conditionals, loops
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 ### **Linux Webtop Installer script will:** 
