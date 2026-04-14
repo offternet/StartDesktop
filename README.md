@@ -1,12 +1,13 @@
 https://youtu.be/1oY9ofjH2_o?si=xMFzPlkSeqHFyZdK
 
-## **Current Features - StartDesktop Browswer Control** 
+## **Current Features - StartDesktop Browser Control** 
 ### Test our Star tDesktop Browser Control: 
      http://me2pc.com/index.php/start-desktop-user-interface
 
 ### Test our Start Desktop - Powered by JavaScript: 
      http://bobbycooper.net 
-### Start Desktop User Interface
+     
+## Start Desktop User Interface
 
 ### -Search for any button
 
@@ -48,11 +49,11 @@ Video on youtube: https://youtu.be/0cKoVyqZNIc?si=SaL95AqwEb2G3bzj
    ~~C. Shell Script  "linuxApps.sh"~~
        ~~- %u="vlc" --> linuxApps.sh --> vlc program is launched.~~ 
        
-###**what can be dropped in to a button and then executed with a single click**###.
+###**what can be dropped in to a button and then executed with a single click**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🎯 COMPLEX COMMAND EXAMPLES:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 1. Multiple apt commands with chaining:
    http://192.168.207.133:9000/launch/sudo_"sudo apt-get update && sudo apt-get upgrade -y"
@@ -72,9 +73,9 @@ Video on youtube: https://youtu.be/0cKoVyqZNIc?si=SaL95AqwEb2G3bzj
 6. Background processes:
    http://192.168.207.133:9000/launch/bash_"nautilus &; gnome-calculator &"
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📝 SYNTAX RULES:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 • Use double quotes around the entire command: prefix_"your command here"
 • Multiple commands: separate with ; or && or ||
@@ -87,9 +88,7 @@ Video on youtube: https://youtu.be/0cKoVyqZNIc?si=SaL95AqwEb2G3bzj
   (none) - Runs silently in background
 
 ✨ Features: yad dialogs, command chaining, variables, conditionals, loops
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ### **Linux Webtop Installer script will:** 
 
