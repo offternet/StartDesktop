@@ -1,9 +1,10 @@
 https://youtu.be/1oY9ofjH2_o?si=xMFzPlkSeqHFyZdK
 
 
-([http://startdesktop.com/files/graphics/process-flow-chart-01.png](http://startdesktop.com/files/graphics/process-flow-chart-01.png))
 
-
+<a href="http://startdesktop.com/images/process-flow-chart-01.png">
+  <img src="http://startdesktop.com/files/graphicsprocess-flow-chart-01.png" alt="Click to see Large Process Flowchart" width="50">
+</a>
 
 ## **Current Features - StartDesktop Browser Control** 
 ### Test our Star tDesktop Browser Control: 
