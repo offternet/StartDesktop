@@ -1,6 +1,6 @@
 https://youtu.be/1oY9ofjH2_o?si=xMFzPlkSeqHFyZdK
 
-[![Click to Enlarge Process Flowchart]([process-flow-chart-01-thumb-300px.png](https://github.com/offternet/StartDesktop/blob/main/images/process-flow-chart-01.png))]
+[![Click to Enlarge Process Flowchart]([http://startdesktop.com/files/graphics/process-flow-chart-01-thumb-300px.png](https://github.com/offternet/StartDesktop/blob/main/images/process-flow-chart-01.png))]
 
 ([http://startdesktop.com/files/graphics/process-flow-chart-01.png](http://startdesktop.com/files/graphicsprocess-flow-chart-01.png))
 
